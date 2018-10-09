@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"rct6_1\startup_stm32f103xe.o"
+"rct6_1\stm32f1xx_hal_cortex.o"
+"rct6_1\stm32f1xx_hal_gpio_ex.o"
+"rct6_1\stm32f1xx_hal_pwr.o"
+"rct6_1\stm32f1xx_hal.o"
+"rct6_1\stm32f1xx_hal_uart.o"
+"rct6_1\stm32f1xx_hal_dma.o"
+"rct6_1\stm32f1xx_hal_tim.o"
+"rct6_1\stm32f1xx_hal_rcc_ex.o"
+"rct6_1\stm32f1xx_hal_tim_ex.o"
+"rct6_1\stm32f1xx_hal_rcc.o"
+"rct6_1\stm32f1xx_hal_gpio.o"
+"rct6_1\stm32f1xx_hal_flash.o"
+"rct6_1\stm32f1xx_hal_flash_ex.o"
+"rct6_1\system_stm32f1xx.o"
+"rct6_1\usart.o"
+"rct6_1\stm32f1xx_hal_msp.o"
+"rct6_1\stm32f1xx_it.o"
+"rct6_1\gpio.o"
+"rct6_1\dma.o"
+"rct6_1\main.o"
+"rct6_1\key_user.o"
+--library_type=microlib --strict --scatter "RCT6_1\RCT6_1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RCT6_1.map" -o RCT6_1\RCT6_1.axf
